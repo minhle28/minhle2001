@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    /* white */
+    --foreground: 240 10% 3.9%;
+    /* dark blue-gray */
+
+    --card: 0 0% 100%;
+    /* white */
+    --card-foreground: 240 10% 3.9%;
+    /* dark blue-gray */
+
+    --popover: 0 0% 100%;
+    /* white */
+    --popover-foreground: 240 10% 3.9%;
+    /* dark blue-gray */
+
+    --primary: 240 5.9% 10%;
+    /* navy blue */
+    --primary-foreground: 0 0% 98%;
+    /* white */
+
+    --secondary: 240 4.8% 95.9%;
+    /* light gray-blue */
+    --secondary-foreground: 240 5.9% 10%;
+    /* navy blue */
+
+    --muted: 240 4.8% 95.9%;
+    /* light gray-blue */
+    --muted-foreground: 240 3.8% 46.1%;
+    /* medium gray-blue */
+
+    --accent: 240 4.8% 95.9%;
+    /* light gray-blue */
+    --accent-foreground: 240 5.9% 10%;
+    /* navy blue */
+
+    --destructive: 0 84.2% 60.2%;
+    /* red */
+    --destructive-foreground: 0 0% 98%;
+    /* white */
+
+    --border: 240 5.9% 90%;
+    /* very light gray-blue */
+    --input: 240 5.9% 90%;
+    /* very light gray-blue */
+    --ring: 240 10% 3.9%;
+    /* dark blue-gray */
+
+    --radius: 0.5rem;
+    /* border radius */
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    /* dark blue-gray */
+    --foreground: 0 0% 98%;
+    /* white */
+
+    --card: 240 10% 3.9%;
+    /* dark blue-gray */
+    --card-foreground: 0 0% 98%;
+    /* white */
+
+    --popover: 240 10% 3.9%;
+    /* dark blue-gray */
+    --popover-foreground: 0 0% 98%;
+    /* white */
+
+    --primary: 0 0% 98%;
+    /* white */
+    --primary-foreground: 240 5.9% 10%;
+    /* navy blue */
+
+    --secondary: 240 3.7% 15.9%;
+    /* dark gray-blue */
+    --secondary-foreground: 0 0% 98%;
+    /* white */
+
+    --muted: 240 3.7% 15.9%;
+    /* dark gray-blue */
+    --muted-foreground: 240 5% 64.9%;
+    /* medium gray-blue */
+
+    --accent: 240 3.7% 15.9%;
+    /* dark gray-blue */
+    --accent-foreground: 0 0% 98%;
+    /* white */
+
+    --destructive: 0 62.8% 30.6%;
+    /* dark red */
+    --destructive-foreground: 0 0% 98%;
+    /* white */
+
+    --border: 240 3.7% 15.9%;
+    /* dark gray-blue */
+    --input: 240 3.7% 15.9%;
+    /* dark gray-blue */
+    --ring: 240 4.9% 83.9%;
+    /* light gray-blue */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  button {
+    @apply active:outline-none;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}
