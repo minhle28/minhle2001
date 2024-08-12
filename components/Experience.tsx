@@ -6,6 +6,7 @@ interface ExperienceData {
   jobName: string;
   date: string;
   description: string | string[];
+  location: string;
 }
 
 const Experience: React.FC = () => {
@@ -49,7 +50,7 @@ const Experience: React.FC = () => {
           </div>
           <p className="text-gray-600">Location: {experienceData[activeIndex].location}</p>
           <br />
-          <div dangerouslySetInnerHTML={{ __html: Array.isArray(experienceData[activeIndex].description) ? experienceData[activeIndex].description.join('<br>') : experienceData[activeIndex].description }} />
+          <div dangerouslySetInnerHTML={{ __html: Array.isArray(experienceData[activeIndex].description) ? experienceData[activeIndex].description.join('<br>') : experienceData[activeIndex].description as string }} />
         </motion.div>
       </div>
     </div>
