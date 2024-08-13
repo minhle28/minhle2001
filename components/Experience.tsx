@@ -50,7 +50,11 @@ const Experience: React.FC = () => {
           </div>
           <p className="text-gray-600">Location: {experienceData[activeIndex].location}</p>
           <br />
-          <div dangerouslySetInnerHTML={{ __html: Array.isArray(experienceData[activeIndex].description) ? experienceData[activeIndex].description.join('<br>') : experienceData[activeIndex].description as string }} />
+          {Array.isArray(experienceData[activeIndex].description) ? (
+            <div dangerouslySetInnerHTML={{ __html: experienceData[activeIndex].description.join('<br>') }} />
+          ) : (
+            <p>{experienceData[activeIndex].description}</p>
+          )}
         </motion.div>
       </div>
     </div>

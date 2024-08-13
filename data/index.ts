@@ -248,7 +248,9 @@ export const experienceData = [
     jobName: "VN Accounting, Tax, & Insurance Services",
     date: "Jan 2023 - Apr 2023",
     location: "Lake City, Georgia",
-    description: "<b>Data Entry</b> - Using QuickBooks, ensure precise recording of deposits and checkwriting. Improved efficiency by 30% through streamlined data management practices, contributing to enhanced financial record accuracy.",
+    description: [
+      "<b>Data Entry</b> - Using QuickBooks, ensure precise recording of deposits and checkwriting. Improved efficiency by 30% through streamlined data management practices, contributing to enhanced financial record accuracy."
+    ],
   },
   {
     jobName: "K&G Fashion Superstore",
