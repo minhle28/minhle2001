@@ -406,7 +406,7 @@ export const skills = [
   },
   {
     id: 19,
-    title: "Software Developer",
+    title: "Software Engineer",
     className: "md:col-span-2",
     thumbnail: "/icons8-expo.svg",
   },
