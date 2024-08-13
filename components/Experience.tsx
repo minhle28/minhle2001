@@ -44,7 +44,7 @@ const Experience: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="lg:h-96 md:h-auto bg-white rounded-lg shadow-lg p-8 w-3/3"
         >
-          <div className='flex justify-between items-center'>
+          <div className='lg:flex lg:justify-between lg:items-center'>
             <h2 className="text-xl font-bold">{experienceData[activeIndex].jobName}</h2>
             <p className="text-gray-600">{experienceData[activeIndex].date}</p>
           </div>
