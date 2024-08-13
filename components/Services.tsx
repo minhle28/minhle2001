@@ -27,7 +27,7 @@ const Services = () => {
     <div className="py-20 w-full">
       <h2 className="heading">
         I Know That <span className="text-grey-100">Good Development</span>
-        <br/>
+        <br />
         Means <span className="text-grey-100">Good Business</span>
       </h2>
 
@@ -35,7 +35,8 @@ const Services = () => {
         {services.map((card) => (
           <motion.div
             key={card.id}
-            className="flex text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            // className="flex text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            className="flex text-black border-neutral-200"
             variants={fadeInUp}
             initial="hidden"
             animate={controls}
