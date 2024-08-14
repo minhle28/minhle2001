@@ -132,7 +132,7 @@ export const projects = [
     title: "Bad Habits Web",
     des: "This project aims to user shopping experience, with a focus on essential features that make it incredibly useful.",
     img: "/project-7.png",
-    iconLists: ["/re.svg", "/icons8-css.svg", "/icons8-bootstrap.svg", "/icons8-mysql.svg"],
+    iconLists: ["/re.svg", "icons8-nodejs.svg", "/icons8-css.svg", "/icons8-bootstrap.svg", "/icons8-mysql.svg"],
     link: "https://github.com/minhle28/Bad_Habits_Web",
   },
   {
@@ -156,7 +156,7 @@ export const projects = [
     title: "GSU ReviewHub",
     des: "GSU ReviewHub gathers data from verified sources, including course catalogs or search databases, instructors who teach for that course, and user-generated reviews.",
     img: "/project-10.png",
-    iconLists: ["/re.svg", "/icons8-css.svg", "/icons8-bootstrap.svg", "/icons8-mysql.svg"],
+    iconLists: ["/re.svg", "icons8-nodejs.svg", "/icons8-css.svg", "/icons8-bootstrap.svg", "/icons8-mysql.svg"],
     link: "https://github.com/minhle28/GSU_ReviewHub",
   },
   {
@@ -289,7 +289,7 @@ export const services = [
   },
   {
     id: 4,
-    title: "Software Developer",
+    title: "Software Engineer",
     desc: "I have lots of experience designing and developing customized, highly responsive website.",
     className: "md:col-span-2",
     thumbnail: "/about04.png",
