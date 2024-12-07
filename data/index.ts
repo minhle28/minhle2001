@@ -245,6 +245,14 @@ export const companies = [
 
 export const experienceData = [
   {
+    jobName: "Amazon Warehouse",
+    date: "Nov 2023 - Nov 2023",
+    location: "Union City, Georgia",
+    description: [
+      "<b>Distribution Center Associate</b> - Operated powered industrial trucks (PIT) to stow inventory while utilizing barcode scanning and warehouse management systems for accurate tracking. Leveraged the Inbound Destination Recommendation Tool (IDRT) and troubleshooting skills to optimize workflows and maintain productivity in a fast-paced, tech-driven environment."
+    ],
+  },
+  {
     jobName: "VN Accounting, Tax, & Insurance Services",
     date: "Jan 2023 - Apr 2023",
     location: "Lake City, Georgia",
