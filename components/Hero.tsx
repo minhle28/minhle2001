@@ -62,7 +62,7 @@ const Hero = () => {
           </p>
 
           <a
-            href="/MinhResumeV4.pdf"
+            href="/Minh_Le_SWE_Resume.pdf"
             target="_blank"
           >
             <MagicButton
